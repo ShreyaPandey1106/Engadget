@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    border-radius: 2%;
+}
+.hero{
+    display: flex;
+}
+.left{
+   
+    width: max-content;
+    height: 100vh;
+}
+.left img{
+    height: fit-content;
+}
+.right{
+    padding: 3%;
+    height: 100vh;
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    height: 30px;    margin-top: 12%;
+    margin-bottom: 15%;
+}
+.enter{
+    margin-top: 25%;
+    margin-bottom: 5%;
+    width: 100%;
+    border: none;
+    font-size: medium;
+    padding: 2%;
+    border-bottom: 1px solid grey;
+}
+.next{
+    width: 100%;
+    color: white;
+    font-size: medium;
+    background-color: #3399CC;
+    border: none;
+    padding: 3%;
+    margin-bottom: 4%;
+}
+.links{
+    /* border: 2px solid red; */
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 4%;
+}
+.right a{
+    text-decoration: none;
+    color: #3399CC;
+}
+.create{
+    border: 1px solid #3399CC;
+    color: #3399CC;
+    font-size: medium;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+    margin-bottom: 8%;
+}
+.google{
+    margin-top: 3%;
+    margin-bottom: 15%;
+    border: 1px solid #575e62;
+    font-size: medium;
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-google{
+    height: 30px;
+}
+@media(max-width:768px)
+{
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+        height: 100vh;
+        padding:2% 15% 5% 15%;
+    }
+    .last{
+        display: none;
+    }
+}
